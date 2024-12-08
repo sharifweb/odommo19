@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Please fill out the form below.</p>
+    
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    
+    <div id="responseMessage" class="response-message"></div>
+</section>
+
+<footer>
+    <p>© 2024 Odommo '19 Youth Foundation | Phone: 01790071378 | Email: odommo.19@gmail.com</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/odommo.19" class="social-icon facebook" target="_blank">Facebook</a>
+        <a href="https://x.com/i/flow/login?lang=en" class="social-icon twitter" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/odommo19/?hl=en" class="social-icon instagram" target="_blank">Instagram</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
